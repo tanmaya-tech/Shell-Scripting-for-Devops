@@ -1,0 +1,6 @@
+Hi, Welcome Tech Enthusiasts! This is a script which tells you about the basics of Shell Scripting
+The value of sum of 5 and 10  is 15
+Current logged in user is: ubuntu
+Home Directory is: /home/ubuntu
+Listing all files in current directory:
+output.txt
