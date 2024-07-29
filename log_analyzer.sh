@@ -24,7 +24,7 @@ total_lines=$(wc -l < "$path_to_logfile")
 total_error_count=$(grep -Eic "error | failed" < "$path_to_logfile")
 
 #3.Search for critical events (lines containing the keyword "CRITICAL") and store them in array
-mapfile -t critical_events < <(grep -n -i "error"  "$path_to_logfile")
+mapfile -t critical_events < <(grep -n -i "CRITICAL"  "$path_to_logfile")
 
 #4. Identify the top 5 most common error messages and their occurrence count using associative arrays
 declare -A error_messages #Syntax in Bash to declare assosiative arrays
